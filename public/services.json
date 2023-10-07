@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Data Science Fundamentals Workshop",
+      "image": "https://i.ibb.co/TtvGKFN/Data-Science-Fundamentals-Workshop.jpg",
+      "price": 300,
+      "description": "A comprehensive workshop covering the fundamentals of data science and analysis."
+    },
+    {
+      "id": 2,
+      "name": "Digital Marketing Masterclass",
+      "image": "https://i.ibb.co/BKpPk5t/digital-marketing.jpg",
+      "price": 250,
+      "description": "An in-depth masterclass on digital marketing strategies and techniques."
+    },
+    {
+      "id": 3,
+      "name": "Financial Planning Bootcamp",
+      "image": "https://i.ibb.co/PthsNB2/financial-planning-bootcamp-image.jpg",
+      "price": 200,
+      "description": "Join this intensive bootcamp to learn essential financial planning skills and practices."
+    },
+    {
+      "id": 4,
+      "name": "Full-Stack Web Development Intensive",
+      "image": "https://i.ibb.co/Rj941b5/full-stack-web-dev-intensive-image.jpg",
+      "price": 400,
+      "description": "A hands-on intensive program covering full-stack web development technologies and tools."
+    },
+    {
+      "id": 5,
+      "name": "Leadership Excellence Seminar",
+      "image": "https://i.ibb.co/fdY5Gww/leadership-excellence-seminar-image.jpg",
+      "price": 150,
+      "description": "Enhance your leadership skills and strategies in this insightful seminar."
+    },
+    {
+      "id": 6,
+      "name": "multilingual_communication_course",
+      "image": "https://i.ibb.co/n3Wc9fg/Multilingual-Communication-Skills-Course.jpg",
+      "price": 350,
+      "description": "Learn effective communication skills in multiple languages with this specialized course."
+    }
+  ]
+  
