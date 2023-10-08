@@ -13,7 +13,7 @@ const Service = () => {
   return (
     <div>
       <div>
-        <h2 className="text-center text-4xl mt-16 text-amber-400">
+        <h2 className="text-center text-4xl mt-16 font-serif text-amber-400">
           Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-9">

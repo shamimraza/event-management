@@ -1,10 +1,9 @@
 const Facility = ({ facility }) => {
   const { name, image, description } = facility;
-  console.log(facility);
   return (
-    <div className="card   shadow-xl">
+    <div className="card shadow-xl">
       <figure>
-        <img className="hover: 'bg-black'" src={image} alt="Shoes" />
+        <img src={image} alt="Shoes" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{name}</h2>

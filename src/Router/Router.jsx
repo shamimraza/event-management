@@ -6,6 +6,7 @@ import Details from "../details/Details";
 import Login from "../Login/Login";
 import Register from "../Login/Register/Register";
 import PrivetRoutes from "./PrivetRoutes/PrivetRoutes";
+import Event from "../event/Event";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>,
+      },
+      {
+        path: "/event",
+        element: <Event></Event>,
       },
       {
         path: "/register",
