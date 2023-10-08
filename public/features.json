@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Popular 3 LMS Supported",
+      "image": "https://i.ibb.co/fH0L67R/lms.png",
+      "price": 300,
+      "description": "Most popular 3 LMS plugins Tutor, LearnDash & LearnPress supported with highly customizable Courses, Units, Lessons, and Quizzes."
+    },
+    {
+      "id": 2,
+      "name": "1-Click Demo Import",
+      "image": "https://i.ibb.co/G0SKtbj/one-click.png",
+      "price": 250,
+      "description": "A very handy feature which is added to the edubin theme, you can import any of the demos of live preview in only one click"
+    },
+    {
+      "id": 3,
+      "name": "Elementor Page Builder",
+      "image": "https://i.ibb.co/mvPFcqb/menu.png",
+      "price": 200,
+      "description": "Elementor for WordPress is drag and drop frontend and backend page builder plugin that will save you time working on the site content."
+    },
+    {
+      "id": 4,
+      "name": "Custom Builder Element",
+      "image": "https://i.ibb.co/VL7NWYC/icons8-business-documentation-50.png",
+      "price": 400,
+      "description": "Creating gorgeous pages quickly and easily without any coding skills. Edubin has 30 + custom elements with third-party popular plugins base elements."
+    },
+    {
+      "id": 5,
+      "name": "Powerful Theme Options",
+      "image": "https://i.ibb.co/xMvN5ZJ/icons8-multiple-options-64.png",
+      "price": 150,
+      "description": "Use Theme Options to change and customize all areas of your site, without touching the code."
+    },
+    {
+      "id": 6,
+      "name": "Google Fonts",
+      "image": "https://i.ibb.co/QcQr9X1/icons8-choose-font-48.png",
+      "price": 350,
+      "description": "We provide free support our customers. Ask your questions or Submit a ticket to see additional support options."
+    }
+  ]
+  

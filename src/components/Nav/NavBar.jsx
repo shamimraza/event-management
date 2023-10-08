@@ -1,6 +1,6 @@
-import { NavLink } from "react-router-dom";
-import { AiOutlineGooglePlus } from "react-icons/ai";
+import { Link, NavLink } from "react-router-dom";
 import icon from "../../assets/../assets/1000_F_97000073_qnDFUJdLGmxr3sIXe0CHv0MT1LbYuQKb.jpg";
+import navImage from "../../assets/user.png";
 
 const NavBar = () => {
   const pages = (
@@ -57,9 +57,14 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{pages}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-outline btn-accent">
-          <AiOutlineGooglePlus className="text-3xl text-amber-500 border-amber-300"></AiOutlineGooglePlus>
-        </button>
+        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+          <div className="w-10 rounded-full">
+            <img src={navImage} />
+          </div>
+        </label>
+        <Link to="/login">
+          <button className="btn">Login</button>
+        </Link>
       </div>
     </div>
   );

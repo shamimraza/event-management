@@ -3,6 +3,7 @@ import photo2 from "../../assets/1.png";
 import photo3 from "../../assets/2.png";
 import photo4 from "../../assets/4.avif";
 import Service from "./Service";
+import Map from "./Map";
 
 const Header = () => {
   return (
@@ -54,6 +55,7 @@ const Header = () => {
         </div>
       </div>
       <Service></Service>
+      <Map></Map>
     </div>
   );
 };
