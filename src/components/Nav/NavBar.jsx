@@ -3,9 +3,15 @@ import icon from "../../assets/../assets/1000_F_97000073_qnDFUJdLGmxr3sIXe0CHv0M
 import navImage from "../../assets/user.png";
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
+import { FcGoogle } from "react-icons/fc";
 
 const NavBar = () => {
-  const { user, logOut } = useContext(AuthContext);
+  const { user, logOut, googleLogin } = useContext(AuthContext);
+
+  const googleHandleButton = () => {
+    googleLogin();
+  };
+
   const handleSignOut = () => {
     logOut()
       .then((result) => {
@@ -19,9 +25,6 @@ const NavBar = () => {
     <>
       <li>
         <NavLink to="/">Home</NavLink>
-      </li>
-      <li>
-        <NavLink to="/blog">Blog</NavLink>
       </li>
       <li>
         <NavLink to="/event">Event</NavLink>
@@ -68,21 +71,32 @@ const NavBar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{pages}</ul>
       </div>
+
       <div className="navbar-end">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
             <img src={user?.photoURL || navImage} />
           </div>
         </label>
-        {user ? (
-          <button onClick={handleSignOut} className="btn">
-            Sign Out
-          </button>
-        ) : (
-          <Link to="/login">
-            <button className="btn">Login</button>
-          </Link>
-        )}
+        <div className="ml-2">
+          {user ? (
+            <button onClick={handleSignOut} className="btn">
+              Sign Out
+            </button>
+          ) : (
+            <Link to="/login">
+              <button className="btn">Login</button>
+            </Link>
+          )}
+        </div>
+      </div>
+      <div className="ml-6">
+        <button
+          onClick={googleHandleButton}
+          className="btn btn-outline btn-info"
+        >
+          <FcGoogle className="text-3xl"></FcGoogle>
+        </button>
       </div>
     </div>
   );

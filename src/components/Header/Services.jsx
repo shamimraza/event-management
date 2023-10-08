@@ -4,7 +4,7 @@ const Services = ({ service }) => {
   const { name, image, price, description, id } = service;
   console.log(service);
   return (
-    <div className="card card-compact w-[450px] h-full bg-base-100 shadow-xl">
+    <div className="card card-compact w-[450px] h-full mx-auto bg-base-100 shadow-xl">
       <figure>
         <img className="w-full h-[250px]" src={image} alt="Shoes" />
       </figure>
@@ -12,9 +12,9 @@ const Services = ({ service }) => {
         <h2 className="card-title">{name}</h2>
         <p className="text-xl">Price : {price}</p>
         <p>{description}</p>
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-center">
           <Link to={`/detail/${id}`}>
-            <button className="btn btn-primary">Details</button>
+            <button className="btn btn-neutral ">Details</button>
           </Link>
         </div>
       </div>
