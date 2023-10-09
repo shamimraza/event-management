@@ -1,8 +1,8 @@
 # Educational and Training Events
 
 
-Click here for the private repo
-# https://i.ibb.co/qpHcRvg/event-02.jpg
+Click here for the live site : # https://educational-training-eve-d4e34.web.app
+
 
 
 -  The first route is setup and children are used to reside on different pages
