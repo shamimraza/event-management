@@ -6,7 +6,6 @@ const Details = () => {
   const idPint = parseInt(id);
   const detail = details.find((detail) => detail.id === idPint);
   const { image, name, description } = detail;
-  console.log(detail);
   return (
     <div>
       <img className="mx-auto w-full h-[600px]" src={image} alt="" />
