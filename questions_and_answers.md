@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: a :?
 
-<i>Write your explanation here</i>
+<i>becouse  the greeting variable to the which is an empty object {} in this case</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C?
 
-<i>Write your explanation here</i>
+<i>When the function is called with sum(1,2), JavaScript will attempt to add a number (1) to a string (2). In JavaScript, when you use the + operator and one of the operands is a string, it will concatenate the values as strings. Therefore, the result will be the concatenation of 1and 2, resulting in the string 12.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A?
 
-<i>Write your explanation here</i>
+<i>The food array is not directly modified in the provided code, so it remains unchanged throughout the code execution. Therefore, the output of console.log(food) will be the original food array, which is:</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B?
 
-<i>Write your explanation here</i>
+<i>Since no argument is provided when calling sayHi(), name inside the sayHi function will be undefined. The function will construct the greeting message with undefined, resulting in Hi there, undefined</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C?
 
-<i>Write your explanation here</i>
+<i>Since there are three non-zero numbers in the nums array (1, 2, and 3) the count will be incremented three times, resulting in count being 3.</i>
 
 </p>
 </details>
