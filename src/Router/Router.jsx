@@ -7,6 +7,7 @@ import Login from "../Login/Login";
 import Register from "../Login/Register/Register";
 import PrivetRoutes from "./PrivetRoutes/PrivetRoutes";
 import Event from "../event/Event";
+import Privet from "./PrivetRoutes/Privet";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/event",
-        element: <Event></Event>,
+        element: (
+          <Privet>
+            <Event></Event>
+          </Privet>
+        ),
       },
       {
         path: "/register",
