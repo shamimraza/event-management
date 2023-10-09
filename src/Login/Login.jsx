@@ -1,8 +1,10 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+// import toast, { Toaster } from "react-hot-toast";
 
 const Login = () => {
+  const [loginError, setLoginError] = useState("");
   const { loginUser } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
@@ -15,6 +17,8 @@ const Login = () => {
     const password = form.get("password");
     console.log(email, password);
 
+    setLoginError("");
+
     loginUser(email, password)
       .then((result) => {
         console.log(result.user);
@@ -24,6 +28,7 @@ const Login = () => {
       })
       .catch((error) => {
         console.error(error);
+        setLoginError("password dose not match");
       });
   };
   return (
@@ -60,7 +65,7 @@ const Login = () => {
           />
           <label className="label">
             <a href="#" className="label-text-alt link link-hover">
-              Forgot password?
+              {loginError && <p className="text-red-600">{loginError}</p>}
             </a>
           </label>
         </div>
