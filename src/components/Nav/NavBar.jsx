@@ -65,9 +65,9 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="flex items-center ">
-          <img className="w-20 h-20" src={icon} alt="" />
+          <img className="w-20 h-20 hidden lg:block" src={icon} alt="" />
           <h2>
-            <span className="text-3xl font-bold text-amber-500">Event</span>
+            <span className="text-4xl font-bold  text-amber-500">Event</span>
           </h2>
         </div>
       </div>
@@ -93,7 +93,7 @@ const NavBar = () => {
           )}
         </div>
       </div>
-      <div className="ml-6">
+      <div className="lg:ml-6">
         <button
           onClick={googleHandleButton}
           className="btn btn-outline btn-info"
