@@ -59,6 +59,9 @@ const NavBar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             {pages}
+            <Link to="/login">
+              <button className="btn">Login</button>
+            </Link>
           </ul>
         </div>
         <div className="flex items-center ">
@@ -84,7 +87,7 @@ const NavBar = () => {
               Sign Out
             </button>
           ) : (
-            <Link to="/login">
+            <Link className="hidden lg:block" to="/login">
               <button className="btn">Login</button>
             </Link>
           )}
